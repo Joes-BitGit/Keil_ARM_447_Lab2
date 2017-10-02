@@ -26,7 +26,7 @@
 #include "tm4c123gh6pm.h"
 void DelayWait10ms(uint32_t n);
 // const will place these structures in ROM
-
+// Great comments keep up the great work
 
 int main(void){
 	uint32_t x = 40, ht = 0;	
