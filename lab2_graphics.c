@@ -26,10 +26,6 @@
 #include "tm4c123gh6pm.h"
 void DelayWait10ms(uint32_t n);
 // const will place these structures in ROM
-//Usign htesn afndsa tesn banech 
-//nfsdja
-
-
 
 int main(void){
 	uint32_t x = 40, ht = 0;	
@@ -59,7 +55,6 @@ int main(void){
 	x++;
  
 	// CODE for MOVING the LEG
-	//l is leg
 	l--;
 	if (l == -15)
 	    l = 15;
@@ -80,8 +75,7 @@ int main(void){
 			x = 40, ht = 0,l = 15, h = 15;
     }
 	}
-
-  
+	
 } 
 
 
